@@ -1,0 +1,11 @@
+framework module HHDoctorSDK {
+  umbrella header "HHDoctorSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HHDoctorSDK.Swift {
+    header "HHDoctorSDK-Swift.h"
+    requires objc
+}

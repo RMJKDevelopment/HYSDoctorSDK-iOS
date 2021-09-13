@@ -1,0 +1,6 @@
+framework module SecurityKit {
+  umbrella header "NTESSecurityKit.h"
+
+  export *
+  module * { export * }
+}

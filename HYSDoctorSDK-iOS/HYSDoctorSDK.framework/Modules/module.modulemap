@@ -1,0 +1,6 @@
+framework module HYSDoctorSDK {
+  umbrella header "HYSDoctorSDK.h"
+
+  export *
+  module * { export * }
+}
